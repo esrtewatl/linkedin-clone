@@ -1,1 +1,30 @@
+ /* header{
+display: flex;
+ } */
+ .header__search{
+  display: inline-flex;
+  flex-direction: row;
+  padding: 10px;
+ align-items: center; 
+ height: 22px;
+ border-radius: 5px;
+ color: gray;
+ background-color: #eef3f8;
+ }
+ .header__search > input{
+  outline: none;
+  border: none;
+  background: none;
+ }
+ .header-right{
+display: flex;
+align-items: baseline;
+
+ }
+ .logo{
+  object-fit: contain;
+  height: 40px;
+  margin-right: 40px;
+
+ }
  

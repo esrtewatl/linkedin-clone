@@ -1,12 +1,35 @@
 import React from 'react'
 import './Header.css'
+import SearchIcon from '@mui/icons-material/Search';
+import HeaderOption from './HeaderOption';
+import HomeIcon from '@mui/icons-material/Home';
+import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
+
 
 function Header() {
   return (
     <div className='header'>
-      <h1>This is the header</h1>
-      <div className='header-left'>This is the right header</div>
-      <div className='header-right'>This is the left header</div>
+      
+      <div className='header-left'>
+   <img src='./LI-In-Bug.png' alt='Ilogo' className='logo' />
+      <div className='header__search'>
+       <SearchIcon />
+
+        <input type='text'/>
+    </div>
+      
+      
+      
+      </div>
+   
+       
+      <div className='header-right'>
+
+<HeaderOption Icon={HomeIcon} title='Home' />
+<HeaderOption Icon={SupervisorAccountIcon}  title='My Network' />
+
+
+      </div>
     </div>
   )
 }
