@@ -27,4 +27,6 @@ align-items: baseline;
   margin-right: 40px;
 
  }
- 
+ .avatar{
+display: none;
+ }
